@@ -43,4 +43,4 @@ streamlit run app.py
 
 Stefani Parvina, Melodie Prudhomme, John Fourlas, Deniz Derviş, Raman Yousefi Avarzaman, Tadiwanashe Matara and Cristian Niţu.
 
-My part: I connected the PIR sensor and integrated it with the Raspberry Pi, installed the software stack on the Pi, worked on the energy-efficiency calculations, and helped with real-time video playback and the detection logic.
+My part: I was one of the two main developers. I built the object-detection module (`raspberry_object_detector.py`: loading the NCNN-exported YOLO11n model, safe weights-only loading, detection with confidence filtering), co-wrote the motion-sensor integration that runs YOLO only after motion, wrote the energy monitoring used in our experiments, and set up the Raspberry Pi.
