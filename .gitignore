@@ -1,0 +1,11 @@
+config.json
+previous_detections.json
+snapshots/
+*.csv
+__pycache__/
+*.pyc
+*.pt
+*.torchscript
+.venv/
+venv/
+.DS_Store
